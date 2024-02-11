@@ -3,7 +3,7 @@
 Welcome to the Projects section of our GitHub repository! Here, you'll find an overview of the various projects we're working on, each aimed at addressing specific challenges, exploring exciting ideas, and contributing to the open-source community. We believe in the power of collaboration and innovation, and this space is a testament to those values.
 
 ## Table of Contents
-- [Project 1: E-GURU Education website]([https://arshad6261.github.io/Milestone/E-Guru.html](https://github.com/Arshad6261/Milestone/tree/main/Project-1))
+- [Project 1: E-GURU Education website](https://github.com/Arshad6261/Milestone/tree/main/Project-1)
 - [Project 2: Hospital Website](https://github.com/Arshad6261/Milestone/tree/main/Project-2)
 - [Project 3: Bike Website](https://github.com/Arshad6261/Milestone/tree/main/Project-3)
 - [Project 4: Video Editing and Graphic Design Website](https://github.com/Arshad6261/Milestone/tree/main/Project-4)
