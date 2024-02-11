@@ -1,0 +1,266 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.504);
+    width: 40%;
+}
+.home {
+    color: orangered;
+}
+.signup {
+    border: solid 1px black;
+    color: black;
+    padding: 12px 17px;
+    background-color: white;
+    font-weight: bold;
+}
+.logo {
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 5px;
+   
+   
+}
+.logo img {
+    height: 20px;
+    width: 30px;
+    margin-right: 8px;
+   
+}
+
+.links:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.311);
+}
+.signup:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 24px;
+    margin: 10px;
+    align-items: center;
+    height: 40%;
+}
+
+.study {
+    display: flex;
+    flex-direction:column;
+    padding: 10px;
+    margin: 5px;
+    width: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+   
+}
+ .study-h {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px;
+ }
+
+ .study-p {
+    border-left: solid 1px black;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(172, 168, 168);
+    font-size: medium;
+   
+ }
+
+ .get-started {
+    background-color: orangered;
+    padding: 14px 19px;
+    border-radius: 3px;
+    color: white;
+    margin: 10px;
+    border: none;
+ }
+
+ .learn-more {
+    border: solid 2px black;
+    color: black;
+    margin: 10px;
+    padding: 12px 17px;
+    background-color: white;
+    border-radius: 3px;
+ }
+
+ .hero-images {
+    width: 40%;
+    padding:24px;
+    margin: 10px;
+    position: relative;
+    align-items: center;
+ }
+
+ .bg-yellow {
+    width: 70%;
+ }
+
+ .main-image {
+    position: absolute;
+    z-index: 2;
+    top: 7%;
+    left: 16%;
+    width: 43%;
+    
+
+
+ }
+ .green-arrow {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+ }
+ .orange-arrow {
+    position: absolute;
+    top: 0;
+    right: 100%;
+ }
+ .curve-arrow {
+    position: absolute;
+    top: 80%;
+    right: 0;
+    width: 20%;
+
+ }
+ .circle {
+    position: absolute;
+    bottom: 5%;
+    right: 25%;
+ }
+ .pattern {
+    position: absolute;
+    right: 30%;
+   bottom: 12%;
+   width: 68%;
+   z-index: 3;
+ }
+
+ .features {
+   background-color: rgb(30, 24, 63);
+   color: white;
+   padding: 20px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   width: 100%;
+ }
+
+ .features div img {
+      width: 25px;
+      border-radius: 5px;
+ }
+
+ .expert img {
+   background-color: rgb(8, 243, 145);
+   padding: 10px;
+ }
+
+ .online img {
+   background-color: rgb(239, 120, 76);
+   padding:10px;
+ }
+
+ .support img {
+   background-color: rgb(95, 84, 172);
+   padding:10px;
+ }
+
+ .best {
+   width: 20%;
+   padding: 20px;
+ }
+ .expert {
+   width: 15%;
+    padding: 20px;
+ }
+ .online {
+   width: 15%;
+    padding: 20px;
+ }
+ .support {
+   width: 15%;
+    padding: 20px;
+ }
+
+ .best>h1 {
+   font-size: xx-large;
+ }
+
+ .features div p {
+   font-size: small;
+   color: rgba(220, 220, 220, 0.522);
+ }
+ 
+ .get-started,.learn-more:hover {
+   cursor: pointer;
+ }
+
+ @media screen and (min-width:750px) {
+     .menu-icon, .profile {
+      display: none;
+     }
+ }
+
+ @media screen and (max-width:750px) {
+     .list, .signup {
+      display:none;
+     }
+     nav {
+      justify-content: space-between;
+     }
+
+     .hero-section {
+      flex-direction: column;
+      padding: 5px;
+      margin: 0;
+     }
+
+     .study, .hero-images {
+      width: 100%;
+     }
+
+     .features {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 8px;
+      gap: 20px;
+     }
+     .features div h1 {
+      margin: 5px;
+     }
+     .features div p {
+      margin-top: 0;
+      font-size: small;
+      font-family:sans-serif;
+      
+     }
+
+     .features div {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+     }
+ }
+

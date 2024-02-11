@@ -1,0 +1,415 @@
+header {
+    background: url(background.png) no-repeat  ;
+    background-size: cover;
+  
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+    font-family: sans-serif;
+    align-items: center;
+    
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.brand-name {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+.quote {
+    padding: 10px 20px;
+    background-color: rgb(60, 159, 229);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    font-family: sans-serif;
+    
+}
+.hero-div {
+    width: 40%;
+}
+
+.hero-h {
+    font-size: 52px;
+    color: white;
+}
+.hero-p {
+    color: white;
+}
+
+.hero-b1 {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgb(60, 159, 229);
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.hero-b2 {
+    border: white 2px solid;
+    border-radius: 20px;
+    padding: 8px 25px;
+    background-color: transparent;
+    margin: 5px;
+    color: white;
+}
+
+form {
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+form input {
+    padding: 13px 40px;
+    background-color: rgba(233, 229, 229, 0.53);
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.book {
+    padding: 15px 0px;
+    border: none;
+    background-color: rgb(60, 159, 229);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+    width: 90%;
+}
+
+form select {
+   padding: 13px 70px;
+   background-color:rgba(233, 229, 229, 0.53) ;
+   border: none;
+   border-radius: 5px;
+   margin: 5px;
+}
+
+.facalities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    font-family: sans-serif;
+    padding: 40px 20px;
+}
+
+.leading {
+    width: 35%;
+}
+
+.leading-h {
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+}
+.leading-p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.554);
+   
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+}
+
+.card {
+    padding: 0px 10px 10px 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(121, 184, 239);
+}
+.head-div h2 {
+    color: white;
+}
+
+.card ul {
+    list-style: none;
+    width: 80%;
+    color: rgba(0, 0, 0, 0.516);
+} 
+.card ul li {
+    margin: 7px;
+} 
+
+.head-div {
+    padding: 10px;
+    background-color:rgb(121, 184, 239) ;
+    width: 100%;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   justify-content: center;
+}
+
+.card h3 {
+    color: rgb(78, 181, 246);
+}
+
+.doctors {
+    background-color: #f4f0f0;
+    padding: 40px;
+}
+
+.ratings {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.rating {
+    width: 20%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gainsboro;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.652);
+}
+
+.rating img[width="50px"] {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: white;
+    
+}
+
+.faqs {
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    justify-items: center;
+    
+}
+.faq {
+    width: 70%;
+   font-size: medium;
+}
+.faq h3 span {
+    color: rgb(54, 180, 230);
+   font: bold;
+   font-size: 25px;
+}
+.faq h3 {
+    font-weight: bold;
+}
+.faq p {
+   color: gray;
+}
+
+.price-cards {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+   justify-content: center;
+}
+
+.price {
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(83, 198, 243);
+    background-color: white;
+    width: 20%;
+    border-radius: 10px;
+
+}
+.price p {
+    text-align: center;
+}
+.price h5 span {
+    font-size: 48px;
+}
+.price h5  {
+    color: rgb(57, 183, 233);
+}
+
+.right {
+    padding: 6px;
+    border-radius: 50%;
+    color: white;
+    margin-right: 8px;
+    
+}
+.green {
+    background-color: #10b544;
+}
+
+.gray {
+    background-color: rgb(181, 177, 177);
+}
+
+.price ul {
+    list-style: none;
+}
+.price ul li {
+    margin-bottom: 18px;
+}
+
+.price button {
+    width: 95%;
+    padding: 10px 0px;
+    background-color: rgb(21, 176, 238);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.c2 {
+    background-color: rgba(6, 6, 70, 0.754);
+    color: white;
+    border: none;
+    width: 20%;
+    margin-bottom: 10px;
+
+}
+
+.get-t {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(6, 6, 70, 0.754);
+    color: white;
+    width: 100%;
+    font-family: sans-serif;
+    padding: 20px;
+    justify-items: center;
+}
+.left h1 {
+   font-size: 40px;
+   margin: 0px;
+}
+
+.left p {
+    font-size: small;
+    margin: 5px;
+    color: rgb(210, 204, 204);
+}
+.left {
+    width: 40%;
+}
+.right {
+    width: 40%;
+}
+.email {
+    border: none;
+    width: 50%;
+    display: flex;
+}
+.email input {
+    padding: 12px 40px;
+    width: 70%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: none;
+}
+.email button {
+    background-color:rgb(21, 176, 238) ;
+    color: white;
+    border: none;
+    width: 30%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: bold;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 40px;
+}
+
+footer ul {
+    margin-top: 10px;
+    color: gray;
+    list-style: none;
+}
+footer ul li {
+    margin-top: 10px;
+}
+
+footer p {
+    color: gray;
+    font-size: small;
+}
+footer h1 {
+    font-size: x-large;
+    text-align: center;
+}
+
+.the-end {
+    text-align: center;
+    font-size: x-small;
+    background-color: rgb(249, 243, 235);
+    font-family: sans-serif;
+    color: gray;
+    padding: 10px;
+}
+
+.touch p {
+    font-size: medium;
+}
+
+.touch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    color: black;
+}
+footer ul li:hover {
+    cursor: pointer;
+    color: black;
+}
